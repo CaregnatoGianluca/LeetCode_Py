@@ -7,7 +7,6 @@ class ValidPalindrom:
                 a += 1
             while not s[- (1 + i + b)].isalpha():
                 b += 1
-
             if i + a > len(s) - 1 - i - b:
                 break
             if s[i + a] != s[- (1 + i + b)]:
