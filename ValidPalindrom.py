@@ -10,5 +10,6 @@ class ValidPalindrom:
             if i + a > len(s) - 1 - i - b:
                 break
             if s[i + a] != s[- (1 + i + b)]:
+                print("prova")
                 return False
         return True
