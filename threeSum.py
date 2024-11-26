@@ -15,5 +15,4 @@ class threesum:
                 for k in range(j+1, len(nums)):
                     if (nums[i] + nums[j] + nums[k]) == 0 and sorted([nums[i], nums[j], nums[k]]) not in ret:
                         ret.append(sorted([nums[i], nums[j], nums[k]]))
-
         return ret
